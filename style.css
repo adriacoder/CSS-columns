@@ -1,0 +1,51 @@
+body{
+    margin:0;
+    top: 0;
+}
+
+.servis {
+    margin: 5rem 2rem 2rem 2rem;
+    padding: 1rem;
+    background-color: aquamarine;
+    columns: 3 30rem;
+    column-gap: 2rem;
+    column-rule: 1px dotted lightcoral;
+}
+
+.portfolio {
+    margin: 2rem;
+    padding: 1rem;
+    background-color: chartreuse;
+    columns: 6 300px;
+    column-gap: 3px;
+    /* column-rule: 1px dotted black; */
+}
+
+.contact {
+    margin: 2rem;
+    padding: 1rem;
+    background-color: floralwhite;
+    columns: 2 40rem;
+    column-gap: 2rem;
+    column-rule: 1px dotted black;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    left: auto;
+    width: 100%;
+    color: lightslategrey;
+    height: 4rem;
+    background-color: lavenderblush;
+}
+
+header > h1 {
+    margin: 1rem 1rem 1rem 2rem;
+
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
